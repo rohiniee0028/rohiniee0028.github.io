@@ -1,7 +1,7 @@
 import GitHubCalendar from 'react-github-calendar';
 import React from "react";
 import ReactTooltip from 'react-tooltip';
-import { Heading } from '@chakra-ui/react';
+import { Box, Heading, Text } from '@chakra-ui/react';
 
 const selectLastHalfYear = contributions => {
     const currentYear = new Date().getFullYear();
@@ -23,18 +23,19 @@ const selectLastHalfYear = contributions => {
   
 
 export const Calender = () => {
-    return (
-        <div style={{margin: "auto", width:"80%", marginTop:"80px"}} >
 
-            <Heading style={{lineHeight:"3.0", marginBottom:"50px"}}>My <span style={{color:"tomato"}}>Github Calendar</span></Heading>
+    return (
+        <Box width={{ lg: "90%", md: "90%", sm: "80%", xs: "80%" }}  fontSize={{lg:"55px",md:"55px",sm:"55px",xs:"50px"}} margin="auto" marginTop={"-50px"}>
+            <Heading style={{display:"flex", gap:"10px",justifyContent:"center",marginBottom:"80px" }}>My<Text color="red.500">Github Calendar</Text></Heading>
             <GitHubCalendar 
                username="rohiniee0028"
-               style={{margin : "auto"}} 
-               transformData = {selectLastHalfYear}
-               blockSize={25}
+               transformData={selectLastHalfYear}
+               style={{margin : "auto",color:"white", fontWeight: "bold", backgroundColor:"black", padding:"25px"}} 
+               blockSize={22}
                fontSize={20} 
-            />
-            <ReactTooltip delayShow={20} />
-        </div>
+            >
+            <ReactTooltip delayShow={20} html />
+            </GitHubCalendar>
+        </Box>
     )
 }

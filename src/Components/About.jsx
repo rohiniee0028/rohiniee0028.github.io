@@ -4,90 +4,35 @@ import {
   Flex,
   Box,
   Heading,
-  Text,
-  Button,
   Image,
-  Icon,
-  IconButton,
-  createIcon,
-  IconProps,
-  useColorModeValue,
+  UnorderedList,
+  ListItem,
+  Text,
 } from '@chakra-ui/react';
 
 export default function About() {
   return (
-    <Container maxW={'6xl'} bgGradient="https://upload.wikimedia.org/wikipedia/commons/e/e4/StarfieldSimulation.gif">
+    <Container maxW={'90%'} marginTop={'80px'} id="about">
+      <Heading style={{display:"flex", gap:"10px",justifyContent:"center"}}>All <Text color={'red.500'}>About</Text> Me</Heading>
       <Stack
-        align={'left'}
+        align={'center'}
         spacing={{ base: 8, md: 10 }}
+        justify={'center'}
         py={{ base: 20, md: 28 }}
+        marginTop={"-40px"}
         direction={{ base: 'column', md: 'row' }}>
-        <Stack flex={1} spacing={{ base: 5, md: 10 }}>
-          <Heading
-            lineHeight={1.5}
-            fontWeight={700}
-            fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}
-            align={'left'}>
-            <Text
-              as={'span'}
-              position={'relative'}
-              _after={{
-                content: "''",
-                width: 'full',
-                position: 'absolute',
-                bottom: 1,
-                left: 0,
-                zIndex: -1,
-              }}
-              fontSize={"25px"}
-            >
-              Hello, my name is
-            </Text>
-            <br />
-            <Text as={'span'} color={'red.400'}>
-              Rohini Kushwaha
-            </Text>
-            <br />
-            <Text fontSize={{ base: '4xl', sm: '4xl', lg: '4xl' }}>
-              <Flex gap={"10px"}>
-                I am <Text color={'red.400'}>Full Stack Web Developer</Text>
-              </Flex>
-            </Text>
-            <br />
-            <Text fontSize={'20px'} fontWeight={400} color={'gray'} lineHeight={1.5}>
-              I am Passionate and skilled full stack web
-              developer and a dedicated learner,
-              successful at collaborating with teams to
-              deliver attractive and engaging results,
-              Looking for a challenging role in industry
-              to utilize my skills and learn.
-            </Text>
-            <br />
-            <Button
-              rounded={'full'}
-              size={'lg'}
-              fontWeight={'normal'}
-              px={6}
-              colorScheme={'red'}
-              bg={'red.400'}
-              _hover={{ bg: 'red.500' }}>
-              Resume
-            </Button>
-          </Heading>
-        </Stack>
         <Flex
           flex={1}
           justify={'center'}
           align={'center'}
           position={'relative'}
-          w={'full'}>
-
+          w={'full'}
+        >
           <Box
             position={'relative'}
             height={'100%'}
             rounded={'2xl'}
-            boxShadow={'2xl'}
-            width={'80%'}
+            width={'100%'}
             overflow={'hidden'}>
             <Image
               alt={'Hero Image'}
@@ -95,10 +40,32 @@ export default function About() {
               align={'center'}
               w={'100%'}
               h={'100%'}
-              src={"https://media-exp1.licdn.com/dms/image/D4D03AQHKVFwBimfmqA/profile-displayphoto-shrink_400_400/0/1665948777373?e=1671667200&v=beta&t=-Vb1EkDPzG46uAb_jyGdgKn0rNJaekg2_c60367an8c"}
+              src={"https://i.pinimg.com/originals/14/b0/83/14b083af7954ae3e6417d0b4fc13b61e.gif"}
             />
           </Box>
         </Flex>
+        <Stack flex={1} spacing={{ base: 5, md: 10 }}>
+          <UnorderedList fontSize={'18px'} align={'left'} fontWeight={400} lineHeight={1.8}>
+            <ListItem>My name is Rohini Kushwaha. I'm a full stack web developer based in Uttar Pradesh, India.
+              I am a B.tech graduate and love exploring new technologies in the field of Web Development
+              and always try to adapt to them.
+            </ListItem>
+            <ListItem>I believe in the concept of continuous learning by regularly
+              upgrading my skills and enhancing my knowledge.
+            </ListItem>
+            <ListItem>
+              I have learnt MERN stack, data structures,
+              algorithms and I am also successful at collaborating with teams to
+              deliver attractive and engaging results.
+            </ListItem>
+            <ListItem>
+              Looking for a challenging role in industry
+              to utilize my skills and learn.
+            </ListItem>
+
+          </UnorderedList>
+
+        </Stack>
       </Stack>
     </Container>
   );

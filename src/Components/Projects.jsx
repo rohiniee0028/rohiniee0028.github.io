@@ -1,4 +1,4 @@
-import { Box, Button, Heading, Image, SimpleGrid, Text } from "@chakra-ui/react";
+import { background, Box, Button, Heading, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import { BsGithub } from "react-icons/bs";
 import { SiNetlify } from "react-icons/si";
 import "./styles/Projects.css";
@@ -28,14 +28,14 @@ let projects = [
         netlifyLink: "https://bluestoneclone.netlify.app/",
         githubLink: "https://github.com/purimetlamuralikrishna/Bluestone-clone"
     },
-    {
-        image: "https://www.afashionblog.com/wp-content/uploads/2021/11/Is_Mytheresa_A_Legitimate_Website_3.jpg",
-        projectName: "MYTHERESA Clone",
-        description: "Mytheresa is a German e-commerce luxury fashion website.It is an online shopping destination for children's, men's, and women's luxury fashion and lifestyle design.",
-        skills: "HTML | CSS | JavaScript | React",
-        netlifyLink: "",
-        githubLink: "https://github.com/rohiniee0028/horrible-twist-9890"
-    },
+    // {
+    //     image: "https://www.afashionblog.com/wp-content/uploads/2021/11/Is_Mytheresa_A_Legitimate_Website_3.jpg",
+    //     projectName: "MYTHERESA Clone",
+    //     description: "Mytheresa is a German e-commerce luxury fashion website.It is an online shopping destination for children's, men's, and women's luxury fashion and lifestyle design.",
+    //     skills: "HTML | CSS | JavaScript | React",
+    //     netlifyLink: "",
+    //     githubLink: "https://github.com/rohiniee0028/horrible-twist-9890"
+    // },
     {
         image: "https://sugermint.com/wp-content/uploads/2022/10/Sugar-Cosmetics-A-Cult-Favorite-Makeup-Brand.jpg",
         projectName: "SUGAR Cosmetics Clone",
@@ -49,47 +49,34 @@ let projects = [
         projectName: "Gearbest Clone",
         description: "A cloned web application of gearbest.com is an E-commerce platform selling an extensive range of goods from clothing, accessories, appliances, home-decor, and electronic gadgets.",
         skills: "HTML5 | CSS3 | JavaScript",
-        netlifyLink: "https://silly-queijadas-e172c2.netlify.app/",
+        netlifyLink: "https://calm-bavarois-2ce653.netlify.app/",
         githubLink: "https://github.com/aakarsh604/Gearbest-Clone"
     },
 ]
 
 export const Projects = () => {
     return (
-        <div className="main-div" >
-             <Heading style={{display:"flex", gap:"10px",justifyContent:"center",marginBottom:"80px" }}>My Recent <Text color="red.400">Projects</Text></Heading>
-            <div style={{ width: "80%", margin: "auto" }}>
+        <Box id="projects">
+             <Heading style={{display:"flex", gap:"10px",justifyContent:"center",marginBottom:"80px" }}>My Recent <Text color="red.500">Projects</Text></Heading>
+            <div style={{ width: "90%", margin: "auto" }}>
 
-                {/* //  <div className="project-div">
-                        //     <img src={el.image}/>
-                        //     <h3>{el.projectName}</h3>
-                        //     <Text>{el.description}</Text>
-                        //     <Text>
-                        //         <span style={{color:"tomato"}}>Tech Stack: </span>
-                        //         {el.skills}
-                        //     </Text>
-                        //     <div style={{display:"flex", justifyContent:"space-between", alignItems:"center"}}>
-                        //          <Button><span><SiNetlify/></span> Live</Button>
-                        //          <Button><span><BsGithub/></span> Code</Button>
-                        //     </div>
-                        //  </div> */}
                 <SimpleGrid columns={[1, 1, 2, 3]} spacing='50px'>
                     {
                         projects.map((el) => (
-                            <div height='auto' style={{boxShadow: "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px", padding:"20px", textAlign:"start"}}>
-                                <Image src={el.image} height="250px" width="100%"/>
-                                <p style={{fontSize:"20px", fontWeight:"500", lineHeight:"2.5", textAlign:"center"}}>{el.projectName}</p>
+                            <div height='auto' style={{borderRadius:"20px", boxShadow: "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px", padding:"20px", textAlign:"start"}}>
+                                <Image src={el.image} height="250px" width="100%" borderRadius={"15PX"}/>
+                                <p style={{fontSize:"20px", fontWeight:"700", lineHeight:"2.5", textAlign:"center"}}>{el.projectName}</p>
                                 <p>{el.description}</p>
                                 <p style={{marginTop:"10px"}}>
-                                    <span style={{ color: "tomato", fontWeight:"bold" }}>Tech Stack: </span>
+                                    <span style={{ color: "red", fontWeight:"bold" }}>Tech Stack: </span>
                                     {el.skills}
                                 </p>
                                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center",marginTop:"20px"}}>
                                     <a href={el.netlifyLink} target="_blank" rel="noopener noreferrer">
-                                        <button style={{display:"flex", gap:"5px", alignItems:"center"}}><span style={{marginRight:"5px"}}><SiNetlify /></span> Live</button>
+                                        <Button _hover={{bg:"red.500", color:"white"}} style={{ fontWeight:"bold", fontSize:"18px", cursor:"pointer",padding:"5px 12px",borderRadius:"15px",display:"flex", gap:"5px", alignItems:"center"}} ><span style={{marginRight:"5px"}}><SiNetlify /></span> Live</Button>
                                     </a>
                                     <a href={el.githubLink} target="_blank" rel="noopener noreferrer">
-                                        <button style={{display:"flex", gap:"5px", alignItems:"center"}}><span style={{marginRight:"5px"}}><BsGithub /></span> Code</button>
+                                        <Button _hover={{bg:"red.500", color:"white"}} style={{fontWeight:"bold", fontSize:"18px", cursor:"pointer",padding:"5px 12px",borderRadius:"15px",display:"flex", gap:"5px", alignItems:"center"}} ><span style={{marginRight:"5px"}}><BsGithub /></span> Code</Button>
                                     </a>
                                 </div>
                             </div>
@@ -98,6 +85,6 @@ export const Projects = () => {
 
 
             </div>
-        </div>
+        </Box>
     )
 }
