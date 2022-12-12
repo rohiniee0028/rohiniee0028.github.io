@@ -26,7 +26,7 @@ function App() {
        <Calender/>
        <GithubStats/>
        <Contact/>
-       <FormContact/>
+       {/* <FormContact/> */}
        <Footer/>
     </div>
   );

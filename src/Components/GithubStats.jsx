@@ -22,9 +22,9 @@ export const GithubStats = () => {
                         </a>
                     </Box>
                 </Box>
-                <Box style={{ width:"35%", margin: "auto", marginTop: "10px" }} width={{ base: "90%", sm: "90%", xs: "98%", md: "80%", lg: "80%" }}>
+                {/* <Box style={{ width:"35%", margin: "auto", marginTop: "10px" }} width={{ base: "90%", sm: "90%", xs: "98%", md: "80%", lg: "80%" }}>
                     <p><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rohiniee0028&layout=compact&exclude_repo=Lybrate-Website-Clone-Version-2.0,Lybrate-Website-Clone,Adidas-Clone&hide=Shell&border_radius=0&theme=tokyonight" alt="rohiniee0028" width="100%" /></p>
-                </Box>
+                </Box> */}
             </Box>
 
             {/* <br />
