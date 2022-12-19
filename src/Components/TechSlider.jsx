@@ -100,7 +100,7 @@ const Slides = () => {
   };
   return (
     <div style={{width:"90%", margin:"auto", marginTop:"120px"}} id="skills">
-      <Heading style={{ display: "flex", gap: "10px", justifyContent: "center", marginBottom: "50px" }}>My<Text color="red.500">Technical Skills</Text></Heading>
+      <Heading fontSize={{ base: "22px",sm:"32px", md: "40px", lg: "48px" }} style={{ display: "flex", gap: "10px", justifyContent: "center", marginBottom: "50px" }}>...My<Text color="red.500">Technical Skills...</Text></Heading>
       <Slider {...settings}>
         {
           skills.map((el) => (

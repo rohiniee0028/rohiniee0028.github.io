@@ -13,7 +13,7 @@ import {
 export default function About() {
   return (
     <Container maxW={'90%'} marginTop={'80px'} id="about">
-      <Heading style={{display:"flex", gap:"10px",justifyContent:"center"}}>All <Text color={'red.500'}>About</Text> Me</Heading>
+      <Heading fontSize={{ base: "22px",sm:"32px", md: "40px", lg: "48px" }} style={{display:"flex", gap:"10px",justifyContent:"center"}}>...All <Text color={'red.500'}>About</Text> Me...</Heading>
       <Stack
         align={'center'}
         spacing={{ base: 8, md: 10 }}

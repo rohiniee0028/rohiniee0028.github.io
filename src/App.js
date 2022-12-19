@@ -11,7 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 import About from './Components/About';
 import { Contact } from './Components/Contact';
 import { Footer } from './Components/Footer';
-import FormContact from './Components/FormContact';
+import SendMail from './Components/SendMail';
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
        <Calender/>
        <GithubStats/>
        <Contact/>
-       {/* <FormContact/> */}
+       <SendMail/>
        <Footer/>
     </div>
   );

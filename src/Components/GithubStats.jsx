@@ -3,8 +3,7 @@ import { Box, Heading, Text } from "@chakra-ui/react"
 export const GithubStats = () => {
     return (
         <Box style={{ marginTop: "80px" }}>
-            <Heading style={{ display: "flex", gap: "10px", justifyContent: "center", marginBottom: "50px" }}>My<Text color="red.500">GitHub Stats</Text></Heading>
-            <br />
+            <Heading fontSize={{ base: "22px",sm:"32px", md: "40px", lg: "48px" }} style={{ display: "flex", gap: "10px", justifyContent: "center", marginBottom: "50px" }}>...My<Text color="red.500">GitHub Stats...</Text></Heading>
             <br />
             {/* style={{display:"flex", justifyContent:"space-between",gap:"10px", height:"185px"}} */}
             {/* height={{lg:"220px",md:"220px",sm:"200px",xs:"200px"}} */}

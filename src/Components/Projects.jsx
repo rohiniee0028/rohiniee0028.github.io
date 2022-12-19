@@ -28,14 +28,14 @@ let projects = [
         netlifyLink: "https://bluestoneclone.netlify.app/",
         githubLink: "https://github.com/purimetlamuralikrishna/Bluestone-clone"
     },
-    // {
-    //     image: "https://www.afashionblog.com/wp-content/uploads/2021/11/Is_Mytheresa_A_Legitimate_Website_3.jpg",
-    //     projectName: "MYTHERESA Clone",
-    //     description: "Mytheresa is a German e-commerce luxury fashion website.It is an online shopping destination for children's, men's, and women's luxury fashion and lifestyle design.",
-    //     skills: "HTML | CSS | JavaScript | React",
-    //     netlifyLink: "",
-    //     githubLink: "https://github.com/rohiniee0028/horrible-twist-9890"
-    // },
+    {
+        image: "/image/rentify.jpg",
+        projectName: "Rentomojo Clone",
+        description: "India's leading rental platform brings to you a wide range of products on rent. Rento mojo is an online rental platform that provides furniture, appliances and electronics on a monthly rental basis.",
+        skills: "React | Redux | Redux-thunk | Nodejs | Chakra-UI | Rest-api",
+        netlifyLink: "https://rentify-one.vercel.app/",
+        githubLink: "https://github.com/khadsepranay/Rentify.com"
+    },
     {
         image: "https://sugermint.com/wp-content/uploads/2022/10/Sugar-Cosmetics-A-Cult-Favorite-Makeup-Brand.jpg",
         projectName: "SUGAR Cosmetics Clone",
@@ -57,7 +57,7 @@ let projects = [
 export const Projects = () => {
     return (
         <Box id="projects">
-             <Heading style={{display:"flex", gap:"10px",justifyContent:"center",marginBottom:"80px" }}>My Recent <Text color="red.500">Projects</Text></Heading>
+             <Heading fontSize={{ base: "22px",sm:"32px", md: "40px", lg: "48px" }} style={{display:"flex", gap:"10px",justifyContent:"center",marginBottom:"80px" }}>...My Recent <Text color="red.500">Projects...</Text></Heading>
             <div style={{ width: "90%", margin: "auto" }}>
 
                 <SimpleGrid columns={[1, 1, 2, 3]} spacing='50px'>
@@ -68,7 +68,7 @@ export const Projects = () => {
                                 <p style={{fontSize:"20px", fontWeight:"700", lineHeight:"2.5", textAlign:"center"}}>{el.projectName}</p>
                                 <p>{el.description}</p>
                                 <p style={{marginTop:"10px"}}>
-                                    <span style={{ color: "red", fontWeight:"bold" }}>Tech Stack: </span>
+                                    <span style={{ color: "red", fontWeight:"bold" }}>Tech Stacks: </span>
                                     {el.skills}
                                 </p>
                                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center",marginTop:"20px"}}>

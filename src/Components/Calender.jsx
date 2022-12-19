@@ -25,8 +25,8 @@ const selectLastHalfYear = contributions => {
 export const Calender = () => {
 
     return (
-        <Box width={{ lg: "90%", md: "90%", sm: "80%", xs: "80%" }}  fontSize={{lg:"55px",md:"55px",sm:"55px",xs:"50px"}} margin="auto" marginTop={"-50px"}>
-            <Heading style={{display:"flex", gap:"10px",justifyContent:"center",marginBottom:"80px" }}>My<Text color="red.500">Github Calendar</Text></Heading>
+        <Box id="githubWork" width={{ lg: "90%", md: "90%", sm: "80%", xs: "80%" }}  fontSize={{lg:"55px",md:"55px",sm:"55px",xs:"50px"}} margin="auto" marginTop={"-50px"}>
+            <Heading fontSize={{ base: "22px",sm:"32px", md: "40px", lg: "48px" }} style={{display:"flex", gap:"10px",justifyContent:"center",marginBottom:"80px" }}>...My<Text color="red.500">Github Calendar...</Text></Heading>
             <GitHubCalendar 
                username="rohiniee0028"
                transformData={selectLastHalfYear}

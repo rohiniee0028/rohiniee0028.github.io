@@ -39,6 +39,10 @@ const Links = [
     href : '#projects'
   },
   {
+    label : 'Github Work',
+    href : '#githubWork'
+  },
+  {
     label : 'Contact',
     href : '#contact'
   },
@@ -107,7 +111,7 @@ export default function Navbar() {
             <Stack as={'nav'} spacing={4}>
               {Links.map((link) => (
                 <NavLink key={link.label} href={link.href}>
-                    {link.label}
+                    <Box onClick={onClose}>{link.label}</Box>
                 </NavLink>
               ))}
             </Stack>
