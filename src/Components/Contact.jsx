@@ -27,9 +27,10 @@ export const Contact = () => {
         <Box width={'90%'} margin={'auto'} marginTop={'70px'} id="contact">
             <Heading fontSize={{ base: "22px",sm:"32px", md: "40px", lg: "48px" }} style={{ display: "flex", gap: "10px", justifyContent: "center", marginBottom: "80px" }}>...Feel <Text color="red.500">Free</Text>To<Text color="red.500">Connect... </Text></Heading>
             <Box display={'flex'} flexDirection={{ base: "column", md: "row" }} gap={'30px'} justifyContent={'center'} marginTop={'-20px'}>
-                <Box width={{ base: "100%", md: "50%", lg: "50%" }}>
-                    <Image src="https://cdn.writermag.com/2020/01/shutterstock_1288206052_web.jpg" width={'100%'} />
+                <Box width={{ base: "100%", md: "50%", lg: "50%" }} borderRadius={"20px"}>
+                    <Image src="image/mail.jpg" width={'100%'} borderRadius={"20px"}  />
                 </Box>
+                {/* https://cdn.writermag.com/2020/01/shutterstock_1288206052_web.jpg */}
                 <Box width={{ base: "100%", md: "40%", lg: "40%" }}>
                     <Flex justifyContent={{ base: "center", sm: "center", md: "center", lg: "left" }} >
                         <Image src="https://media.tenor.com/6ph1w40DrykAAAAi/handshake-joypixels.gif" width={{ base: "100px", lg: "200px" }} />

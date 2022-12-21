@@ -26,13 +26,13 @@ export default function Header() {
 
   return (
     <Box bg={useColorModeValue('gray.100', 'gray.900')} width={"100%"} height={'700px'} id="home">
-    <Container maxW={'6xl'} align={"center"}>
+    <Container maxW={{base:"8xl",sm:"8xl",md:"8xl",lg:"6xl"}} align={"center"}>
       <Stack
         align={'left'}
         spacing={{ base: 10, md: 10, sm: 8 }}
         py={{ base: 20, md: 28 }}
         direction={{ base: 'column', md: 'row' }}
-        justifyContent={"space-evenly"}
+        justifyContent={{base:"space-between",sm:"space-between",md:"space-evenly",lg:"space-evenly"}}
         alignItems={"center"}>
         <Stack flex={1} spacing={{ base: 5, md: 10 }}>
           <Heading
@@ -64,7 +64,7 @@ export default function Header() {
             </Text>
             <br />
             <Text fontSize={{ base: '3xl', sm: '2xl', lg: '4xl' }}>
-              <Flex gap={"10px"} justifyContent={"center"} flexDir={{sm:"column", md:"row", lg:"row", base:"column"}}>
+              <Flex gap={{base:"5px", sm:"10px",md:"10px",lg:"10px"}} justifyContent={"center"} flexDir={{sm:"column", md:"row", lg:"row", base:"column"}}>
                 I'm a 
                 <Text color={"red.500"}>
                   <TypeAnimation
