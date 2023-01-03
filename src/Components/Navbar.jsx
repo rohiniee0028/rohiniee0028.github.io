@@ -75,7 +75,7 @@ export default function Navbar() {
 
   return (
     <>
-      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}  style={{position:"fixed",zIndex:"100", width:"100%"}} >
+      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4} style={{position:"fixed",zIndex:"100", width:"100%"}} >
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}
@@ -107,7 +107,7 @@ export default function Navbar() {
         </Flex>
 
         {isOpen ? (
-          <Box pb={4} display={{ md: 'none' }} >
+          <Box pb={4} display={{ md: 'none' }} marginLeft={{base:"-30%",sm:"-30%",md:"0%",lg:"0%",xl:"0%"}}>
             <Stack as={'nav'} spacing={4}>
               {Links.map((link) => (
                 <NavLink key={link.label} href={link.href}>

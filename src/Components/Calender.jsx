@@ -30,11 +30,11 @@ export const Calender = () => {
             <GitHubCalendar 
                username="rohiniee0028"
                transformData={selectLastHalfYear}
-               style={{margin : "auto",color:"white", fontWeight: "bold", backgroundColor:"black", padding:"25px"}} 
+               style={{margin : "auto",color:"white", fontWeight: "bold", backgroundColor:"#000", padding:"25px"}} 
                blockSize={22}
                fontSize={20} 
             >
-            <ReactTooltip delayShow={20} html />
+            <ReactTooltip delayShow={20} />
             </GitHubCalendar>
         </Box>
     )
