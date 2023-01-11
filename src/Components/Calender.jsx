@@ -29,7 +29,7 @@ export const Calender = () => {
             <Heading fontSize={{ base: "22px",sm:"32px", md: "40px", lg: "48px" }} style={{display:"flex", gap:"10px",justifyContent:"center",marginBottom:"80px" }}>...My<Text color="red.500">Github Calendar...</Text></Heading>
             <GitHubCalendar 
                username="rohiniee0028"
-               transformData={selectLastHalfYear}
+              //  transformData={selectLastHalfYear}
                style={{margin : "auto",color:"white", fontWeight: "bold", backgroundColor:"#000", padding:"25px"}} 
                blockSize={22}
                fontSize={20} 
