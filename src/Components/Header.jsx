@@ -116,7 +116,7 @@ export default function Header() {
               align={'center'}
               w={'100%'}
               h={'100%'}
-              src={"./image/resume-image.jpg"}
+              src={"./image/editted.jpg"}
             />
           </Box>
         </Flex>

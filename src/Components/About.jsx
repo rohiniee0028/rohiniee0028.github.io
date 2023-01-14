@@ -9,11 +9,12 @@ import {
   ListItem,
   Text,
 } from '@chakra-ui/react';
+import "./styles/About.css"
 
 export default function About() {
   return (
     <Container maxW={'90%'} marginTop={'80px'} id="about">
-      <Heading fontSize={{ base: "22px",sm:"32px", md: "40px", lg: "48px" }} style={{display:"flex", gap:"10px",justifyContent:"center"}}>...All <Text color={'red.500'}>About</Text> Me...</Heading>
+      <Heading fontSize={{ base: "22px", sm: "32px", md: "40px", lg: "48px" }} style={{ display: "flex", gap: "10px", justifyContent: "center" }}>...All <Text color={'red.500'}>About</Text> Me...</Heading>
       <Stack
         align={'center'}
         spacing={{ base: 8, md: 10 }}
@@ -46,22 +47,22 @@ export default function About() {
         </Flex>
         <Stack flex={1} spacing={{ base: 5, md: 10 }}>
           <UnorderedList fontSize={'18px'} align={'left'} fontWeight={400} lineHeight={1.8}>
-            <ListItem>My name is Rohini Kushwaha. I'm a full stack web developer based in Uttar Pradesh, India.
-              I am a B.tech graduate and love exploring new technologies in the field of Web Development
-              and always try to adapt to them.
-            </ListItem>
-            <ListItem>I believe in the concept of continuous learning by regularly
+            <Text id="first">My name is <b>Rohini Kushwaha</b>. I'm a Full Stack Web Developer based in Uttar Pradesh, India. I am a B.tech graduate
+              and completed my graduation from Dr. A.P.J Abdul Kalam Technical university, Lucknow in Electrical Engineering trade.I have also cleared GATE (Graduate aptitude test of engineering) examination in 2019 & 2020. 
+            </Text>
+            <Text>I have a keen interest and a love in exploring new technologies in the field of Web Development and always try to adapt to them.
+              I believe in the concept of continuous learning by regularly
               upgrading my skills and enhancing my knowledge.
-            </ListItem>
-            <ListItem>
+            </Text>
+            <Text id="last2">
               I have learnt MERN stack, data structures,
               algorithms and I am also successful at collaborating with teams to
               deliver attractive and engaging results.
-            </ListItem>
-            <ListItem>
+            </Text>
+            <Text id="looking">
               Looking for a challenging role in industry
               to utilize my skills and learn.
-            </ListItem>
+            </Text>
 
           </UnorderedList>
 

@@ -1,0 +1,15 @@
+#first::first-letter{
+   font-size: 35px;
+   font-weight: bold;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#first{
+    margin-bottom: 10px;
+}
+#looking{
+    font-style: italic;
+    color:red
+}
+#last2{
+    margin-top: 10px;
+}
