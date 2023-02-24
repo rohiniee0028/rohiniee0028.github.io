@@ -21,7 +21,7 @@ export default function Header() {
   const { colorMode, toggleColorMode } = useColorMode();
 
   const ResumeDownload = () => {
-    window.open("https://drive.google.com/file/d/1BzKof1R8By3Y8y6cEkywzi1IOnVIUDut/view?usp=sharing");
+    window.open("https://drive.google.com/file/d/19zcUB9p5vD01OSxUgFPvpIXSXNFa6HNs/view?usp=sharing");
   }
 
   return (
