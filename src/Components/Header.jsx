@@ -91,7 +91,7 @@ export default function Header() {
               marginTop={'20px'}
               
               >
-                 Resume
+                Download Resume
             </Button>
             </a>
           </Heading>
