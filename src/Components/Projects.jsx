@@ -13,28 +13,20 @@ let projects = [
         githubLink: "https://github.com/rohiniee0028/Clone--REVV-Website"
     },
     {
-        image: "https://cdn2.vectorstock.com/i/1000x1000/39/81/weather-forecast-poster-vector-31053981.jpg",
-        projectName: "Weather App Clone ",
-        description: "A weather forecasting web application built using weather API. It shows city and current location based weather data with next 5 hours and 7 days forecast.",
-        skills: "HTML | CSS | JavaScript",
-        netlifyLink: "https://ubiquitous-sable-b3c88a.netlify.app/",
-        githubLink: "https://github.com/rohiniee0028/weather-api"
-    },
-    {
-        image: "https://www.ecomkeeda.com/wp-content/uploads/2021/01/1.-Bluestone-min-1024x536.png",
-        projectName: "BlueStone Clone",
-        description: "Bluestone is one of the e-Commerce Website.Best jewellery website for online jewellery shopping in India with Designer Rings, Pendants, Earrings, Mangalsutra, Bangles, Bracelets, Solitaire Diamonds..",
-        skills: "HTML | CSS | JavaScript",
-        netlifyLink: "https://bluestoneclone.netlify.app/",
-        githubLink: "https://github.com/purimetlamuralikrishna/Bluestone-clone"
-    },
-    {
         image: "/image/rentify.jpg",
         projectName: "Rentomojo Clone",
         description: "India's leading rental platform brings to you a wide range of products on rent. Rento mojo is an online rental platform that provides furniture, appliances and electronics on a monthly rental basis.",
         skills: "React | Redux | Redux-thunk | Nodejs | Chakra-UI | Rest-api",
         netlifyLink: "https://rentify-one.vercel.app/",
         githubLink: "https://github.com/khadsepranay/Rentify.com"
+    },
+    {
+        image: "/image/weather-img.jpg",
+        projectName: "Weather App Clone ",
+        description: "A weather forecasting web application built using weather API. It shows city and current location based weather data with next 5 hours and 7 days forecast.",
+        skills: "HTML | CSS | JavaScript",
+        netlifyLink: "https://ubiquitous-sable-b3c88a.netlify.app/",
+        githubLink: "https://github.com/rohiniee0028/weather-api"
     },
     {
         image: "https://sugermint.com/wp-content/uploads/2022/10/Sugar-Cosmetics-A-Cult-Favorite-Makeup-Brand.jpg",
@@ -45,12 +37,20 @@ let projects = [
         githubLink: "https://github.com/rohiniee0028/guttural-wood-1464"
     },
     {
-        image: "https://cdn-conhm.nitrocdn.com/VBHIKJQwTIFWhLpYnMyCHsGkLxlKDUse/assets/static/optimized/rev-0b093e8/wp-content/uploads/2022/01/Gearbest-vs-AliExpress-1-1024x489.jpg",
-        projectName: "Gearbest Clone",
-        description: "A cloned web application of gearbest.com is an E-commerce platform selling an extensive range of goods from clothing, accessories, appliances, home-decor, and electronic gadgets.",
-        skills: "HTML5 | CSS3 | JavaScript",
-        netlifyLink: "https://calm-bavarois-2ce653.netlify.app/",
-        githubLink: "https://github.com/aakarsh604/Gearbest-Clone"
+        image: "/image/revish.png",
+        projectName: "Sephora Clone",
+        description: "A leader in luxury beauty and skincare, purpose at Sephora online India is to create an inviting online beauty shopping experience and inspire fearlessness in our community",
+        skills: "Next JS | MongoDB | Node JS | Chakra-UI ",
+        netlifyLink: "https://revish.vercel.app/",
+        githubLink: "https://github.com/rohiniee0028/Revish.com"
+    },
+    {
+        image: "https://www.ecomkeeda.com/wp-content/uploads/2021/01/1.-Bluestone-min-1024x536.png",
+        projectName: "BlueStone Clone",
+        description: "Bluestone is one of the e-Commerce Website.Best jewellery website for online jewellery shopping in India with Designer Rings, Pendants, Earrings, Mangalsutra, Bangles, Bracelets, Solitaire Diamonds..",
+        skills: "HTML | CSS | JavaScript",
+        netlifyLink: "https://bluestoneclone.netlify.app/",
+        githubLink: "https://github.com/purimetlamuralikrishna/Bluestone-clone"
     },
 ]
 
