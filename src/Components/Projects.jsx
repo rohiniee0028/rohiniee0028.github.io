@@ -8,7 +8,7 @@ let projects = [
         image: "/image/rentify.jpg",
         projectName: "Rentomojo Clone",
         description: "India's leading rental platform brings to you a wide range of products on rent. Rento mojo is an online rental platform that provides furniture, appliances and electronics on a monthly rental basis.",
-        skills: "React | Redux | Redux-thunk | Nodejs | Chakra-UI | Rest-api",
+        skills: "MongoDB | Nodejs | Express | React | Redux | Redux-thunk | Chakra-UI | Rest-api | Jsonwebtoken ",
         netlifyLink: "https://rentify-one.vercel.app/",
         githubLink: "https://github.com/khadsepranay/Rentify.com"
     },
