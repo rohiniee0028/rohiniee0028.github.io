@@ -15,7 +15,7 @@ let projects = [
     {
         image: "/image/blog.png",
         projectName: "Blog App",
-        description: "A simple blog app application made individually in 4 days in which user can login/signup, create blog, read blog, search blog and also can connect with us by sending an email to us.",
+        description: "A simple blog application made individually in 4 days in which user can login/signup, create blog, read blog, search blog and also can connect with us by sending an email to us.",
         skills: "Next JS | MongoDB | Node JS | Chakra-UI | Redux | Jsonwebtoken",
         netlifyLink: "https://blog-application-lac.vercel.app/",
         githubLink: "https://github.com/rohiniee0028/blog-app-NextJS"
