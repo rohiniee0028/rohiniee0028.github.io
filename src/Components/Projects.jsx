@@ -5,20 +5,28 @@ import "./styles/Projects.css";
 
 let projects = [
     {
-        image: "https://carsubscriptions.org/screenshots/revv-open-screenshot-id10-1024x768.jpg",
-        projectName: "REVV Clone ",
-        description: "Revv cars is an Indian self-drive mobility start up.It is a popular choice for self-drive car rentals services and it also offers car subscription in India in over 22 cities.",
-        skills: "HTML | CSS | JavaScript",
-        netlifyLink: "https://velvety-cocada-174e41.netlify.app/",
-        githubLink: "https://github.com/rohiniee0028/Clone--REVV-Website"
-    },
-    {
         image: "/image/rentify.jpg",
         projectName: "Rentomojo Clone",
         description: "India's leading rental platform brings to you a wide range of products on rent. Rento mojo is an online rental platform that provides furniture, appliances and electronics on a monthly rental basis.",
         skills: "React | Redux | Redux-thunk | Nodejs | Chakra-UI | Rest-api",
         netlifyLink: "https://rentify-one.vercel.app/",
         githubLink: "https://github.com/khadsepranay/Rentify.com"
+    },
+    {
+        image: "/image/blog.png",
+        projectName: "Blog App",
+        description: "A simple blog app application made individually in 4 days in which user can login/signup, create blog, read blog, search blog and also can connect with us by sending an email to us.",
+        skills: "Next JS | MongoDB | Node JS | Chakra-UI | Redux | Jsonwebtoken",
+        netlifyLink: "https://blog-application-lac.vercel.app/",
+        githubLink: "https://github.com/rohiniee0028/blog-app-NextJS"
+    },
+    {
+        image: "/image/revv.png",
+        projectName: "REVV Clone ",
+        description: "Revv cars is an Indian self-drive mobility start up.It is a popular choice for self-drive car rentals services and it also offers car subscription in India in over 22 cities.",
+        skills: "HTML | CSS | JavaScript",
+        netlifyLink: "https://velvety-cocada-174e41.netlify.app/",
+        githubLink: "https://github.com/rohiniee0028/Clone--REVV-Website"
     },
     {
         image: "/image/weather-img.jpg",
@@ -29,20 +37,20 @@ let projects = [
         githubLink: "https://github.com/rohiniee0028/weather-api"
     },
     {
+        image: "/image/crud.png",
+        projectName: "Todo App",
+        description: "A simple Todo App made individually in 1 day in which we can do CRUD operations. Given functionalities like delete, toggle , update, post.",
+        skills: "TypeScript | Redux | Redux-thunk | Vercel | Axios | Chakra-ui | Rest-Api",
+        netlifyLink: "https://crud-app-ts.vercel.app/",
+        githubLink: "https://github.com/rohiniee0028/redux-typescript-crud-app"
+    },
+    {
         image: "https://sugermint.com/wp-content/uploads/2022/10/Sugar-Cosmetics-A-Cult-Favorite-Makeup-Brand.jpg",
         projectName: "SUGAR Cosmetics Clone",
         description: "Sugar Cosmetics is an Indian e-commerce website focuses on selling makeup and skincare products that are millennial friendly, best suited for Indian skin tones and are cruelty-free.",
         skills: "HTML5 | CSS3 | JavaScript",
         netlifyLink: "https://taupe-pony-ad84a9.netlify.app/",
         githubLink: "https://github.com/rohiniee0028/guttural-wood-1464"
-    },
-    {
-        image: "/image/revish.png",
-        projectName: "Sephora Clone",
-        description: "A leader in luxury beauty and skincare, purpose at Sephora online India is to create an inviting online beauty shopping experience and inspire fearlessness in our community",
-        skills: "Next JS | MongoDB | Node JS | Chakra-UI ",
-        netlifyLink: "https://revish.vercel.app/",
-        githubLink: "https://github.com/rohiniee0028/Revish.com"
     },
     {
         image: "https://www.ecomkeeda.com/wp-content/uploads/2021/01/1.-Bluestone-min-1024x536.png",
