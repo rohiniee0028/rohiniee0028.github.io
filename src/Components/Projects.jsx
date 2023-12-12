@@ -45,7 +45,7 @@ let projects = [
         githubLink: "https://github.com/rohiniee0028/redux-typescript-crud-app"
     },
     {
-        image: "https://sugermint.com/wp-content/uploads/2022/10/Sugar-Cosmetics-A-Cult-Favorite-Makeup-Brand.jpg",
+        image: "/image/sugar.png",
         projectName: "SUGAR Cosmetics Clone",
         description: "Sugar Cosmetics is an Indian e-commerce website focuses on selling makeup and skincare products that are millennial friendly, best suited for Indian skin tones and are cruelty-free.",
         skills: "HTML5 | CSS3 | JavaScript",
@@ -53,12 +53,12 @@ let projects = [
         githubLink: "https://github.com/rohiniee0028/guttural-wood-1464"
     },
     {
-        image: "https://www.ecomkeeda.com/wp-content/uploads/2021/01/1.-Bluestone-min-1024x536.png",
+        image: "/image/bluestone.png",
         projectName: "BlueStone Clone",
         description: "Bluestone is one of the e-Commerce Website.Best jewellery website for online jewellery shopping in India with Designer Rings, Pendants, Earrings, Mangalsutra, Bangles, Bracelets, Solitaire Diamonds..",
         skills: "HTML | CSS | JavaScript",
         netlifyLink: "https://bluestoneclone.netlify.app/",
-        githubLink: "https://github.com/purimetlamuralikrishna/Bluestone-clone"
+        githubLink: "https://github.com/rohiniee0028/Bluestone-clone"
     },
 ]
 
