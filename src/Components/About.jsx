@@ -22,7 +22,6 @@ export default function About() {
     setExp(false)
     setAbout(true)
   }
-
   const handleExperience = () => {
     setAbout(false)
     setExp(true)
