@@ -89,7 +89,7 @@ export default function About() {
           </UnorderedList>}
           {Exp && <UnorderedList fontSize={'18px'} align={'left'} fontWeight={400} lineHeight={1.8}>
               <Text>Working as a Junior Software Developer at <a href="https://digitup.in/" target='_blank' rel="noreferrer" style={{textDecoration:"underline"}}>DigitUp Solutions Pvt. Ltd.</a>, Gurgaon. <b>(June/2023 - Present)</b></Text>
-              <Text>Worked as a graduate Apprentice Trainee at Bharat Petroleum Corporation of India Ltd., Noida <b>(2020 - 2021)</b></Text>
+              <Text>Worked as a Graduate Apprentice Trainee at Bharat Petroleum Corporation of India Ltd., Noida <b>(2020 - 2021)</b></Text>
             </UnorderedList>
           }
 
