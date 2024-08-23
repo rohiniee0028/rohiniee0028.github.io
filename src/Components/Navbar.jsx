@@ -48,7 +48,7 @@ const Links = [
   },
   {
     label : 'Resume',
-    href : 'https://drive.google.com/file/d/1e35wc92cLhtD9No6ltB21ldk2RIpzrUA/view?usp=sharing'
+    href : 'https://drive.google.com/file/d/1fcGmufTdtbMtVjcOchaCIJveIEOh-6IN/view?usp=sharing'
   },
 ]
 
