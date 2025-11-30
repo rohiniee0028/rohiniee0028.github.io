@@ -18,7 +18,7 @@ const skills = [
   },
   {
     id: 3,
-    image: "https://static.javatpoint.com/csspages/images/css-tutorial.png",
+    image: "https://thecrazyprogrammer.com/wp-content/uploads/2017/11/CSS3.jpg",
     heading: "CSS"
   },
   {
@@ -68,6 +68,7 @@ const Slides = () => {
     autoplay: true,
     speed: 2000,
     autoplaySpeed: 2000,
+    arrows: false,
     cssEase: "linear",
     responsive: [
       {

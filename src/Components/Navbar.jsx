@@ -95,7 +95,7 @@ export default function Navbar() {
               spacing={4}
               display={{ base: 'none', md: 'flex' }}>
               {Links.map((link) => (
-                <NavLink key={link.label} href={link.href}>
+                <NavLink key={link.label} href={link.href} target={link.label === 'Resume' ? '_blank' : '_self'}>
                   {link.label}
                 </NavLink>
               ))}
