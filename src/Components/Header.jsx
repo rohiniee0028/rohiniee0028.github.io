@@ -68,7 +68,7 @@ export default function Header() {
                 I'm a 
                 <Text color={"red.500"}>
                   <TypeAnimation
-                    sequence={['Full Stack Web Developer','MERN Developer', 1000, '']}
+                    sequence={['MERN Developer','Frontend Developer', 1000, '']}
                     speed={40}
                     wrapper="h2"
                     repeat={Infinity}
@@ -76,7 +76,7 @@ export default function Header() {
                 </Text>
               </Flex>
             </Text>
-            <a download href="Rohini-Kushwaha-Resume.pdf" target="_blank" onClick={ResumeDownload}>
+            <a download href="Rohini-Kushwaha-Frontend-Developer-Resume.pdf" target="_blank" onClick={ResumeDownload}>
             <Button
               rounded={'xl'}
               size={'lg'}
